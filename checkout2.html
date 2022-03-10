@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#000">
+		<meta name="theme-color" content="#000">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
+		<link rel="stylesheet" href="css/swiper.css" async>
+		<link rel="stylesheet" href="css/fancybox.css" async>
+		<link rel="stylesheet" href="css/styles.css" async>
+
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)" async>
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)" async>
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)" async>
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)" async>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<button class="close"></button>
+
+					<div class="mob_scroll">
+						<div class="top">
+							<div class="cont row">
+								<div class="links">
+									<div><a href="/">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+										<span>Магазины</span>
+									</a></div>
+
+									<div><a href="/">Доставка и оплата</a></div>
+								</div>
+
+								<div class="contacts">
+									<div class="phone">
+										<a href="tel:+74951981801">+7 (495) 198 18 01</a>
+									</div>
+
+									<button class="callback_btn modal_btn" data-content="#callback_modal">Обратный звонок</button>
+								</div>
+
+								<div class="links">
+									<div><a href="/">О компании</a></div>
+									<div><a href="/" class="active">Новости</a></div>
+									<div><a href="/">Программа лояльности</a></div>
+									<div><a href="/">Франшиза</a></div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="info">
+							<div class="cont row">
+								<div class="logo">
+									<img src="images/logo.png" alt="">
+								</div>
+
+								<div class="search">
+									<form action="">
+										<input type="text" name="" value="" class="input" placeholder="Я ищу...">
+
+										<button type="submit" class="submit_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+										</button>
+									</form>
+								</div>
+
+								<div class="btns">
+									<div><a href="/" class="link favorite_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+										<span>Избранное</span>
+									</a></div>
+
+									<div><a href="/" class="link cart_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+										<span>Корзина</span>
+										<span class="count">3</span>
+									</a></div>
+
+									<div><a href="/" class="account_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_user"></use></svg>
+									</a></div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="bottom">
+							<div class="cont">
+								<nav class="menu row">
+									<div class="item">
+										<a href="/" class="sub_link">Волосы</a>
+
+										<div class="sub_menu">
+											<div class="cont">
+												<div class="row">
+													<div class="level2">
+														<div>
+															<a href="/" class="sub_link" data-level3=".level3_1">
+																<span>Техника и аксессуары</span>
+																<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+															</a>
+														</div>
+
+														<div>
+															<a href="/">
+																<span>Профессиональная косметика</span>
+															</a>
+														</div>
+													</div>
+
+													<div class="level3 level3_1">
+														<div><a href="/">Фены</a></div>
+														<div><a href="/">Плойки, щипцы, электробигуди</a></div>
+														<div><a href="/">Машинки для стрижки</a></div>
+														<div><a href="/">Расчески, щетки, брашинги</a></div>
+														<div><a href="/">Аксессуары</a></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="item">
+										<a href="/">Лицо и тело</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Загар в солярии</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Макияж</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Мужчинам</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Акции</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Бренды</a>
+									</div>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_header">
+					<div class="cont row">
+						<div class="logo">
+							<img src="images/logo.png" alt="">
+						</div>
+
+						<button class="mob_menu_btn">
+							<span></span>
+						</button>
+					</div>
+				</section>
+
+
+				<section class="page_head">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">Главная</a> <span class="sep"></span>
+							<span class="current">Корзина</span>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="checkout_info">
+					<div class="cont row">
+						<div class="checkout big_w">
+							<div class="block_title">Оформление заказа</div>
+
+							<form action="" class="form">
+								<div class="section">
+									<div class="title">
+										<div>Личные данные</div>
+
+										<button class="quike_order_btn">Быстрый заказ</button>
+									</div>
+
+									<div class="message"><b>Зарегистрируйтесь</b>,<br> чтобы воспользоваться бонусами и персональной скидкой</div>
+
+									<div class="line">
+										<div class="field">
+											<input type="text" name="" value="" class="input" placeholder="Ваше имя">
+											<div class="required">*</div>
+										</div>
+									</div>
+
+									<div class="line">
+										<div class="field">
+											<input type="tel" name="" value="" class="input" placeholder="Номер телефона">
+											<div class="required">*</div>
+										</div>
+									</div>
+
+									<div class="line">
+										<div class="field">
+											<input type="email" name="" value="" class="input" placeholder="E-mail">
+											<div class="required">*</div>
+										</div>
+									</div>
+
+									<div class="line">
+										<div class="field">
+											<input type="text" name="" value="" class="input" placeholder="Город">
+											<div class="required">*</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="section">
+									<div class="title">Доставка</div>
+
+									<div class="delivery_method">
+										<div class="field">
+											<input type="radio" name="delivery_method" id="delivery_method_check1" checked>
+											<label for="delivery_method_check1">
+												<div>Курьерская доставка по Москве и МО - 0 ₽, не позднее 01 октября</div>
+
+												<div class="desc">Бесплатно при заказе малогабаритного товара на сумму от 2 500 ₽ Стоимость доставки крупногабаритного товара уточняйте у наших менеджеров.</div>
+											</label>
+
+											<div class="method_content">
+												<div class="line">
+													<div class="field">
+														<input type="text" name="" value="" class="input" placeholder="Улица, дом, квартира">
+														<div class="required">*</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="field">
+											<input type="radio" name="delivery_method" id="delivery_method_check2">
+											<label for="delivery_method_check2">
+												<div>Самовывоз (бесплатно) - 0 ₽, не позднее 01 октября</div>
+											</label>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="section">
+									<div class="title">Оплата</div>
+
+									<div class="payment_method">
+										<div class="field">
+											<input type="radio" name="payment_method" id="payment_method_check1" checked>
+											<label for="payment_method_check1">
+												<div>Online-оплата (ROBOKASSA)</div>
+											</label>
+										</div>
+
+										<div class="field">
+											<input type="radio" name="payment_method" id="payment_method_check2">
+											<label for="payment_method_check2">
+												<div>Банковской картой в магазине</div>
+											</label>
+										</div>
+
+										<div class="field">
+											<input type="radio" name="payment_method" id="payment_method_check3">
+											<label for="payment_method_check3">
+												<div>Наличные</div>
+											</label>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="section">
+									<div class="title">Предпочтительный способ получения чека</div>
+
+									<div class="check_method">
+										<div class="field">
+											<input type="radio" name="check_method" id="check_method_check1" checked>
+											<label for="check_method_check1">
+												<div>E-mail</div>
+											</label>
+										</div>
+
+										<div class="field">
+											<input type="radio" name="check_method" id="check_method_check2">
+											<label for="check_method_check2">
+												<div>SMS</div>
+											</label>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="section">
+									<div class="line">
+										<div class="field">
+											<textarea name="" placeholder="Комментарии к заказу"></textarea>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+
+
+						<div class="cart">
+							<div class="block_title">
+								<div>Ваш заказ</div>
+
+								<div class="back_link">
+									<a href="/">Вернуться в корзину</a>
+								</div>
+							</div>
+
+							<div class="data">
+								<div class="info">
+									<div class="product">
+										<a href="/" class="thumb">
+											<img data-src="images/tmp/cart_product_thumb.png" alt="" class="lozad">
+										</a>
+
+										<div>
+											<div class="brand">
+												<a href="/">LAKME</a>
+											</div>
+
+											<div class="name">
+												<a href="/">Organic Balance Shampoo 300 мл</a>
+											</div>
+
+											<div class="amount_val">1 шт.</div>
+
+											<div class="articul">Артикул: LPR19100</div>
+
+											<div class="total_price">1 112,65 ₽</div>
+										</div>
+									</div>
+
+
+									<div class="product">
+										<a href="/" class="thumb">
+											<img data-src="images/tmp/cart_product_thumb2.png" alt="" class="lozad">
+										</a>
+
+										<div>
+											<div class="brand">
+												<a href="/">BIOLINE</a>
+											</div>
+
+											<div class="name">
+												<a href="/">Скраб с морской солью THALASSO FORCE двухфазный, 650г</a>
+											</div>
+
+											<div class="amount_val">2 шт.</div>
+
+											<div class="articul">Артикул: NS-10-7</div>
+
+											<div class="total_price">9 078 ₽</div>
+										</div>
+									</div>
+
+
+									<div class="product">
+										<a href="/" class="thumb">
+											<img data-src="images/tmp/cart_product_thumb3.png" alt="" class="lozad">
+										</a>
+
+										<div>
+											<div class="brand">
+												<a href="/">BIOLINE</a>
+											</div>
+
+											<div class="name">
+												<a href="/">Холодный крем для экстремальных погодных условий 100 мл</a>
+											</div>
+
+											<div class="amount_val">1 шт.</div>
+
+											<div class="articul">Артикул: BAB6520RE</div>
+
+											<div class="total_price">3 851 ₽</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="totals">
+									<div>
+										<div class="name">Общий вес</div>
+										<div class="val">700 г</div>
+									</div>
+
+									<div>
+										<div class="name">Экономия</div>
+										<div class="val">2 862 ₽</div>
+									</div>
+
+									<div>
+										<div class="name">Доставка</div>
+										<div class="val">0 ₽</div>
+									</div>
+
+									<div>
+										<div class="name">К оплате</div>
+										<div class="val"><b>8 873 ₽</b></div>
+									</div>
+								</div>
+
+								<form action="" class="form">
+									<div class="submit">
+										<button type="submit" class="submit_btn">Оформить заказ</button>
+									</div>
+
+									<div class="agree">
+										<input type="checkbox" name="agree" id="checkout_agree_check" checked>
+										<label for="checkout_agree_check">
+											<div>Согласен с обработкой <a href="/" target="_blank">персональных данных</a> в соответствии с <a href="/" target="_blank">политикой конфиденциальности</a></div>
+										</label>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="logo">
+						<img src="images/footer_logo.png" alt="">
+					</div>
+
+					<div class="socials">
+						<span>Присоединяйтесь к нам:</span>
+
+						<div class="items">
+							<a href="/" target="_blank" rel="noopener nofollow" class="vkontakte_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_vkontakte"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="instagram_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="facebook_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_facebook"></use></svg>
+							</a>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="cont row">
+					<div class="menu">
+						<div class="title">Каталог</div>
+
+						<div class="items columns">
+							<div><a href="/">Краска для волос Матрикс</a></div>
+							<div><a href="/">Краска для волос Loreal</a></div>
+							<div><a href="/">Краска для волос Kapous</a></div>
+							<div><a href="/">Краска для волос Estel</a></div>
+							<div><a href="/">Плойка для волос</a></div>
+							<div><a href="/">Щипцы для волос</a></div>
+							<div><a href="/">Утюжок для волос</a></div>
+							<div><a href="/">Фен Valera</a></div>
+							<div><a href="/">Шампунь Матрикс</a></div>
+							<div><a href="/">Шампунь Estel</a></div>
+							<div><a href="/">Шампунь Kapous</a></div>
+							<div><a href="/">Kapous Professional</a></div>
+							<div><a href="/">Фен babyliss</a></div>
+							<div><a href="/">Фен для волос</a></div>
+							<div><a href="/">Машинки для стрижки волос</a></div>
+							<div><a href="/">Фен щетка babyliss</a></div>
+						</div>
+					</div>
+
+					<div class="menu">
+						<div class="title">Покупателям</div>
+
+						<div class="items">
+							<div><a href="/">Доставка и оплата</a></div>
+							<div><a href="/">Гарантии качества и сервиса</a></div>
+							<div><a href="/">Программа лояльности</a></div>
+							<div><a href="/">Акции</a></div>
+							<div><a href="/">Интеллектуальные права</a></div>
+							<div><a href="/">Помощь</a></div>
+						</div>
+					</div>
+
+					<div class="menu">
+						<div class="title">О компании</div>
+
+						<div class="items">
+							<div><a href="/">Контакты</a></div>
+							<div><a href="/">Новости</a></div>
+							<div><a href="/">Статьи</a></div>
+							<div><a href="/">Условия продажи</a></div>
+							<div><a href="/">Сервисный центр</a></div>
+						</div>
+					</div>
+
+
+					<div class="contacts">
+						<div class="title">Контакты</div>
+
+						<div class="phone">
+							<a href="tel:+74951981801">+7 (495) 198 18 01</a>
+						</div>
+
+						<div class="email">
+							<a href="mailto:info@akrasoty.ru">info@akrasoty.ru</a>
+						</div>
+
+						<div class="time">
+							<div>пн-пт 10:00 - 19:00</div>
+							<div>сб 11:00 - 18:00</div>
+							<div>вс -  выходной</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="cont row">
+					<div class="payments">
+						<img src="images/ic_payments1.svg" alt="" class="lozad">
+						<img src="images/ic_payments2.svg" alt="" class="lozad">
+						<img src="images/ic_payments3.svg" alt="" class="lozad">
+						<img src="images/ic_payments4.svg" alt="" class="lozad">
+						<img src="images/ic_payments5.svg" alt="" class="lozad">
+						<img src="images/ic_payments6.svg" alt="" class="lozad">
+					</div>
+
+					<div class="ya_market">
+						<img src="images/tmp/ya_marker.png" alt="">
+					</div>
+				</div>
+
+
+				<div class="cont row">
+					<div class="copyright">2021 "Архитектор красоты" Все права защищены</div>
+
+					<div class="links">
+						<div><a href="/">Политика конфиденциальности</a></div>
+						<div><a href="/">Персональные данные</a></div>
+					</div>
+
+					<div class="creator">
+						<a href="/" target="_blank" rel="noopener">Разработка сайта - Агентство Нейрон</a>
+					</div>
+				</div>
+
+
+				<div class="buttonUp">
+					<button><svg class="icon"><use xlink:href="images/sprite.svg#ic_buttonUp"></use></svg></button>
+				</div>
+			</footer>
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal" id="callback_modal">
+			<div class="modal_title">Обратная связь</div>
+
+			<div class="modal_desc">Заполните форму, указав контактные данные, и мы сами вам перезвоним!</div>
+
+			<div class="modal_data">
+				<form action="" class="form">
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input" placeholder="Имя">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="tel" name="" value="" class="input" placeholder="Номер телефона">
+							<div class="required">*</div>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="email" name="" value="" class="input" placeholder="E-mail">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<textarea name="" placeholder="Комментарий"></textarea>
+						</div>
+					</div>
+
+					<div class="line agree">
+						<input type="checkbox" name="agree" id="agree_check" checked>
+						<label for="agree_check">
+							<div>Согласен с обработкой <a href="/" target="_blank">персональных данных</a> в соответствии с <a href="/" target="_blank">политикой конфиденциальности</a></div>
+						</label>
+					</div>
+
+					<div class="submit">
+						<button type="submit" class="submit_btn">Отправить</button>
+					</div>
+				</form>
+			</div>
+		</section>
+
+
+		<section class="modal" id="success_modal">
+			<div class="modal_title">Спасибо!</div>
+
+			<div class="modal_desc">Ваша заявка отправлена, мы скоро свяжемся  с вами.</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
