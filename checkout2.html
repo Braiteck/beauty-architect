@@ -177,9 +177,48 @@
 							<img src="images/logo.png" alt="">
 						</div>
 
-						<button class="mob_menu_btn">
-							<span></span>
-						</button>
+						<div class="contacts">
+							<div class="phone">
+								<a href="tel:+74951981801">+7 (495) 198 18 01</a>
+							</div>
+
+							<button class="callback_btn modal_btn" data-content="#callback_modal">Обратный звонок</button>
+						</div>
+
+						<div class="btns">
+							<div class="search modal_cont">
+								<button class="btn mini_modal_btn" data-modal-id="#search_modal">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+								</button>
+
+								<div class="mini_modal" id="search_modal">
+									<form action="">
+										<input type="text" name="" value="" class="input" placeholder="Я ищу...">
+
+										<button type="submit" class="submit_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+										</button>
+									</form>
+								</div>
+							</div>
+
+							<div><a href="/" class="link favorite_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+							</a></div>
+
+							<div><a href="/" class="link cart_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+								<span class="count">3</span>
+							</a></div>
+
+							<div><a href="/" class="account_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_user"></use></svg>
+							</a></div>
+
+							<div><button class="mob_menu_btn">
+								<span></span>
+							</button></div>
+						</div>
 					</div>
 				</section>
 
@@ -548,7 +587,7 @@
 				</div>
 
 
-				<div class="cont row">
+				<div class="cont row mob_hide">
 					<div class="payments">
 						<img src="images/ic_payments1.svg" alt="" class="lozad">
 						<img src="images/ic_payments2.svg" alt="" class="lozad">

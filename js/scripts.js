@@ -63,7 +63,13 @@ $(() => {
 					0: {
 						slidesPerView: 1
 					},
-					1180: {
+					480: {
+						slidesPerView: 2
+					},
+					768: {
+						slidesPerView: 3
+					},
+					1024: {
 						slidesPerView: 4
 					}
 				},
@@ -111,7 +117,20 @@ $(() => {
 			},
 			breakpoints: {
 				0: {
-					slidesPerView: 1
+					spaceBetween: 24,
+					slidesPerView: 2
+				},
+				480: {
+					spaceBetween: 24,
+					slidesPerView: 3
+				},
+				768: {
+					spaceBetween: 32,
+					slidesPerView: 4
+				},
+				1024: {
+					spaceBetween: 40,
+					slidesPerView: 3
 				},
 				1180: {
 					spaceBetween: 80,
@@ -248,6 +267,14 @@ $(() => {
 	})
 
 
+	// Моб. подвал
+	$('footer .menu .title').click(function (e) {
+		e.preventDefault()
+
+		$(this).addClass('active').next().slideToggle(300)
+	})
+
+
 	// Отправка форм
 	$('body').on('submit', '.form', function (e) {
 		e.preventDefault()
@@ -277,6 +304,12 @@ $(window).resize(() => {
 	$('.products .row').each(function () {
 		productHeight($(this), parseInt($(this).css('--products_count')))
 	})
+
+
+	// Изменение вида отображения товаров
+	if ($(window).width() < 768) {
+		$('.products .list').addClass('row').removeClass('list')
+	}
 })
 
 
