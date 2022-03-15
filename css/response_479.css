@@ -413,6 +413,16 @@
 
 
 
+    /*--------------
+        Register
+    --------------*/
+    .register .socials .items
+    {
+        margin-left: 6px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/
