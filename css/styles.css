@@ -1504,6 +1504,8 @@ header .cart_preview .product .price
     line-height: 15px;
 
     min-width: 76px;
+
+    align-self: center;
 }
 
 
